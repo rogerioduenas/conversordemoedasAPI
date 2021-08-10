@@ -10,56 +10,55 @@
 </head>
 
 <body>
-    <div class="goiaba">
+    <div class="header">
         <form>
+            <h1>Conversor de moedas</h1>
             <input id="valor" type="text">
             <input type="button" value="converter" onclick="converter()">
         </form>
     </div>
-    <div class="cards">
-        <div class="linha">
-            <div class="card">
-                <img src="./assets/brasil.jpg">
-                <img src="./assets/eua.png">
-                <p> BRL para USD</p>
-                <p id="real/dolar"></p>
-            </div>
-            <div class="card">
-                <img src="./assets/eua.png">
-                <img src="./assets/brasil.jpg">
-                <p>USD para BRL</p>
-                <p id="dolar/real"></p>
-            </div>
+    <div class="linha">
+        <div class="card">
+            <img src="./assets/brasil.jpg">
+            <img src="./assets/eua.png">
+            <p> BRL para USD</p>
+            <p id="real/dolar"></p>
         </div>
-
-        <div class="linha">
-            <div class="card">
-                <img src="./assets/brasil.jpg">
-                <img class="euro" src="./assets/euro.png">
-                <p>BRL para EUR</p>
-                <p id="real/euro"></p>
-            </div>
-            <div class="card">
-                <img class="euro" src="./assets/euro.png">
-                <img src="./assets/brasil.jpg">
-                <p>EUR para BRL</p>
-                <p id="euro/real"></p>
-            </div>
+        <div class="card">
+            <img src="./assets/eua.png">
+            <img src="./assets/brasil.jpg">
+            <p>USD para BRL</p>
+            <p id="dolar/real"></p>
         </div>
+    </div>
 
-        <div class="linha">
-            <div class="card">
-                <img src="./assets/brasil.jpg">
-                <img class="grabretanha" src="./assets/grabretanha.png">
-                <p>BRL para GBP</p>
-                <p id="real/libra"></p>
-            </div>
-            <div class="card">
-                <img class="grabretanha" src="./assets/grabretanha.png">
-                <img src="./assets/brasil.jpg">
-                <p>GBP para BRL</p>
-                <p id="libra/real"></p>
-            </div>
+    <div class="linha">
+        <div class="card">
+            <img src="./assets/brasil.jpg">
+            <img class="euro" src="./assets/euro.png">
+            <p>BRL para EUR</p>
+            <p id="real/euro"></p>
+        </div>
+        <div class="card">
+            <img class="euro" src="./assets/euro.png">
+            <img src="./assets/brasil.jpg">
+            <p>EUR para BRL</p>
+            <p id="euro/real"></p>
+        </div>
+    </div>
+
+    <div class="linha">
+        <div class="card">
+            <img src="./assets/brasil.jpg">
+            <img class="grabretanha" src="./assets/grabretanha.png">
+            <p>BRL para GBP</p>
+            <p id="real/libra"></p>
+        </div>
+        <div class="card">
+            <img class="grabretanha" src="./assets/grabretanha.png">
+            <img src="./assets/brasil.jpg">
+            <p>GBP para BRL</p>
+            <p id="libra/real"></p>
         </div>
     </div>
     <script src="./script.js"></script>
