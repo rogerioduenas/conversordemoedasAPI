@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.goiaba{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background: lightgrey;
+}
+.card{
+    border: 1px solid black;
+    width: 30%;
+    height: 150px;
+    margin-top: 20px;
+    text-align: center;
+    background-color: lightgrey;   
+}
+.linha{
+    display: flex;
+    justify-content: space-around;
+}
+img{
+    width: 50px;
+    margin-top: 10px;
+}
+
+.euro{
+    height: 26px;
+}
+.grabretanha{
+    height: 26px;
+}
+.cards{
+    background-image: url(./download-1.jpg);
+}
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 10px ;
+}
