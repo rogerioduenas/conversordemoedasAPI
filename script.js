@@ -15,7 +15,7 @@ function converter() {
         
             const dolar = data.USD.high;
             let USD = (valor / dolar)
-            let BRLUSD = `${valor} reais é equivalente há \u{1F4B5} ${USD.toFixed(2)} dolares`
+            let BRLUSD = `${valor} reais é equivalente há \u{1F4B5} ${USD.toFixed(2)} dólares`
             document.getElementById("real/dolar").innerHTML= BRLUSD
 
             const euro = data.EUR.high;
@@ -29,7 +29,7 @@ function converter() {
             document.getElementById("real/libra").innerHTML= BRLGBP
 
             let BRdolar = (dolar * valor)
-            let USDBRL = `${valor} dolares é equivalente há \u{1F4B8} ${BRdolar.toFixed(2)} reais`
+            let USDBRL = `${valor} dólares é equivalente há \u{1F4B8} ${BRdolar.toFixed(2)} reais`
             document.getElementById("dolar/real").innerHTML= USDBRL
 
             let BReuro = (euro * valor)
